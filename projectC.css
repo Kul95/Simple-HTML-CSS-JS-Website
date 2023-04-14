@@ -1,0 +1,95 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.head1{
+    padding: 10px;
+    margin: 0px;
+    background-color: darkslategray;
+    text-align: start;
+}
+.cl{
+    color: black;
+}
+.two{
+    padding: 20px;
+    margin: 0px;
+    background-color: rgb(103, 128, 128);
+    text-align: start;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+  }
+  li{
+    padding: 20px;
+    margin: 10px;
+   display: inline;
+    /* float: left; */
+    text-align: center;
+    font-weight: 200;
+    font-size: x-large;
+   
+
+  }
+  a:hover {
+    background-color: burlywood;
+    
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  
+.three{
+    color: white;
+    padding:65px;
+    background-image: url('office.jpg');
+    background-repeat: no-repeat;
+    background-size: 1400px 350px;
+}
+
+h1{
+    color: white;
+}
+.btn{
+    padding: 10px;
+    /* margin-right: 10px; */
+    float: inline-end;
+    text-align: center;
+    float: right;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+}
+button:hover{
+    background-color: brown;
+}
+.para{
+    padding: 15px;
+    margin: px;
+    border: 2px solid black;
+}
+
+h4{
+    border: 2px solid black;
+    display: inline;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    
+    /* flex-wrap: wrap; */
+}
+.foot{
+    background-color: blueviolet;
+    border: 1px solid green;
+    padding: 100px;
+    margin: 0px;
+
+}
+.lonk11{
+    color: black;
+}

@@ -1,0 +1,184 @@
+Factorial program............................
+
+import java.util.Scanner;
+class Main{
+    public static void main(String args[]){
+        int n,fact=1;
+        System.out.println("Enter a number");
+        Scanner sc=new Scanner(System.in);
+        n=sc.nextInt();
+        for(int i=1;i<=n;i++){
+            fact=fact*i;
+        }
+        System.out.println(fact);
+    }
+}
+
+2 Count digit program.............................
+
+import java.util.Scanner;
+class Main{
+    public static void main(String args[]){
+        int num,count=0;
+        System.out.println("Enter the number:");
+        Scanner sc=new Scanner(System.in);
+        num=sc.nextInt();
+      while(num>0){
+          num=num/10;
+          count++;
+      }  
+      System.out.println(count);
+    }
+}
+
+3 Sum of digits....................................
+
+
+import java.util.Scanner;
+class Main{
+public static void main(String args[]){
+int num,sum=0;
+System.out.println("Enter the number");
+Scanner sc=new Scanner(System.in);
+num=sc.nextInt();
+while(num>0){
+sum=sum+num%10;
+num=num/10;
+}
+System.out.println(sum);
+}
+}
+
+
+ 4 Reverse Number.....................
+
+import java.util.Scanner;
+class Main{
+public static void main(String args[]){
+int num,rev=0;
+System.out.println("Enter the numbers");
+Scanner sc=new Scanner(System.in);
+num=sc.nextInt();
+while(num>0){
+rev=num%10;
+System.out.println(rev);
+num=num/10;
+}
+}
+}
+
+
+5 Palindrom Number...........................
+
+import java.util.Scanner;
+class Main{
+public static void main(String args[]){
+int num,rev,sum=0,count;
+System.out.println("Enter the numbers:");
+Scanner sc=new Scanner(System.in);
+num=sc.nextInt();
+count=num;
+while(num>0){
+rev=num%10;
+sum=sum*10+rev;
+num=num/10;
+}
+if(count==sum){
+System.out.println("Palindrom Number");}
+else{
+System.out.println("Not a Palindrom number");
+}
+
+}
+}
+
+6 Prime Number..................................
+
+import java.util.Scanner;
+class Main{
+public static void main(String args[]){
+int num,count=0;
+System.out.println("Enter the number");
+Scanner sc=new Scanner(System.in);
+num=sc.nextInt();
+for(int i=1;i<=num;i++){
+if(num%i==0){
+count++;
+
+}
+}
+if(count==2)
+{
+System.out.println("Prime number");
+}
+else{
+System.out.println("Not a prime number");
+}
+}
+}
+
+
+7  Odd Even Program...........................
+
+import java.util.Scanner;
+class Main{
+    public static void main(String args[]){
+        System.out.println("Enter a number:");
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        if(num%2==0){
+            System.out.println("Even number");
+        }
+        else{
+            System.out.println("Odd numbers");
+        
+        }
+    }
+}
+
+8  Sum of two Numbers.............................
+
+import java.util.Scanner;
+class Main{
+    public static void main(String args[]){
+        System.out.println("Enter the first number:");
+        Scanner sc=new Scanner(System.in);
+        int num1=sc.nextInt();
+         System.out.println("Enter the second number:");
+        Scanner sc1=new Scanner(System.in);
+        int num2=sc1.nextInt();
+        int sum=num1+num2;
+        System.out.println(sum);
+    }
+}
+
+9 Print Natural numbers.................................
+
+import java.util.Scanner;
+class Main{
+public static void main(String args[]){
+System.out.println("Enter the number");
+Scanner sc=new Scanner(System.in);
+int num=sc.nextInt();
+for(int i=0;i<=num;i++){
+System.out.print(i+" ");
+}
+}
+}
+
+10  Print sum of Natural numbers...................
+
+
+import java.util.Scanner;
+class Main{
+public static void main(String args[]){
+int sum=0;
+System.out.println("Enter the number");
+Scanner sc=new Scanner(System.in);
+int num=sc.nextInt();
+for(int i=0;i<=num;i++){
+sum=sum+i;
+System.out.print(sum);
+}
+}
+}

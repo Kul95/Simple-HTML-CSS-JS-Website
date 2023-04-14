@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(235, 227, 230);
+    box-sizing: border-box;
+}
+.carousel-inner img{
+    width: 10%;
+    height:90vh;
+}
